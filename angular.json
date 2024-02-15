@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "front_sin_standalone": {
+    "publitendencias-2fb87": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/front_sin_standalone",
+            "outputPath": "dist/publitendencias-2fb87",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "front_sin_standalone:build:production"
+              "buildTarget": "publitendencias-2fb87:build:production"
             },
             "development": {
-              "buildTarget": "front_sin_standalone:build:development"
+              "buildTarget": "publitendencias-2fb87:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "front_sin_standalone:build"
+            "buildTarget": "publitendencias-2fb87:build"
           }
         },
         "test": {
@@ -106,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0a849434-d53b-409d-9caf-715e39e6e24a"
   }
 }
